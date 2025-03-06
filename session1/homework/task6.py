@@ -13,21 +13,21 @@
 # if so print True
  
 
-# word = input("enter a word: ")
-# word = word.lower()
-# length = len(word)
-# backword = ""
-# for i in range(length - 1, -1, -1):
-#     backword += word[i]
-# if word == backword:
-#     print(True)
-# else:
-#     print(False)
+word = input("enter a word: ")
+word = word.lower()
+length = len(word)
+backword = ""
+for i in range(length - 1, -1, -1):
+    backword += word[i]
+if word == backword:
+    print(True)
+else:
+    print(False)
 
 # ^^had to google some of it^^
 
 
 # here is the shortest answer to it 
-word = input("enter a word: ")
-palindrome = word == word[::-1]
-print(palindrome)
+# word = input("enter a word: ")
+# palindrome = word == word[::-1]
+# print(palindrome)
