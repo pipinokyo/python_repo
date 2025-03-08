@@ -19,7 +19,7 @@ if len(password) >= 8:
         print('Weak password')
 else:
     print('Weak password')
-# therfore the logic is flawed
+# therefore the logic is flawed
 
 
 # similar problem here
