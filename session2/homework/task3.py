@@ -42,7 +42,7 @@ else: # num3 > num1 and num3 > num2:If neither of the above conditions is true, 
 num1 = int(input('Please provide the first number: '))
 num2 = int(input('Please provide the second number: '))
 num3 = int(input('Please provide the third number: '))
-
+# to understand nested if conditions i print after every if condition to see the result helps
 if num1 > num2:
     # num1 is smaller
     if num1 > num3:
@@ -60,6 +60,7 @@ else:
         # num2 is smaller
         large = num3
 print(f'{large} is the largers number')
+
 
 
 # the easiest way is uning max
