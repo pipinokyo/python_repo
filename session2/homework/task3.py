@@ -39,9 +39,9 @@ else: # num3 > num1 and num3 > num2:If neither of the above conditions is true, 
 # if the condition num1 > num2 then num1 is smaller
 # so now we can check which number is larger between num2 and num2
 # for this i am going to try to use nested if statement
-# num1 = int(input('Please provide the first number: '))
-# num2 = int(input('Please provide the second number: '))
-# num3 = int(input('Please provide the third number: '))
+num1 = int(input('Please provide the first number: '))
+num2 = int(input('Please provide the second number: '))
+num3 = int(input('Please provide the third number: '))
 
 if num1 > num2:
     # num1 is smaller

@@ -31,6 +31,22 @@ else:
     print('Weak password')
 
 
+# another way to do is to check what the variable doesn't contain
+# if the variable las less than 8 character its a weak password
+# if the variable has at least 8 character and only contains digit then its a weak password
+# if the variable has at least 8 character and only contains alpha then its a weak password
+password = input("Enter your password, please: ")
+
+if len(password) < 8:
+    print("Weak password")
+elif password.isdigit() or password.isalpha():
+    print("Weak password")
+else:
+    print("Strong password")
+
+
+
+# the most complicated way 
 # since isdigit() and isalpha() check if the variable contains only letter or numnber
 # i will have to use any() and to check both number and and letters i have to use for
 # first i am going to check the lenght if the lenght is 8 or more we will continue 
@@ -55,3 +71,4 @@ if len(password) >= 8:
 else:
     print('Weak password')
 # understood the logic but had to steal some codes
+
