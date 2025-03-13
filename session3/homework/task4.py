@@ -44,7 +44,7 @@ else:
 
 # 3rd try improved version
 # the correct password stored in variable so we can compare with the input
-# secret_password = ('Python123')
+secret_password = ('Python123')
 # we set for loop and set the range from 3 to 0(0 not inclued) and goes back by 1(-1)
 # it loops max three times from 3 to 0
 for i in range(3, 0, -1):
