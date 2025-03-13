@@ -17,8 +17,8 @@
 n = int(input("Enter a number: "))
 s = input('what symbol so you want to use? : ')
 
-for i in range(n):
-    
+for i in range(n): # This loop runs from 0 to n-1 (e.g., for n = 5, i takes values 0, 1, 2, 3, 4).
+# It controls the number of rows in the upper half of the diamond.
     for j in range(n - i - 1):
         print(" ", end="")
  
@@ -37,3 +37,5 @@ for i in range(n - 2, -1, -1):
         print(s, end="")
     
     print()
+
+
