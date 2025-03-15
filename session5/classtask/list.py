@@ -102,3 +102,4 @@ print(my_list)  # Output: []
 You can convert a list to other data structures like sets, tuples, or dictionaries.
 my_set = set(my_list)
 my_tuple = tuple(my_list)
+print(", ".join(new_list)) # it joins all the characters in the list and you can specify the seperator here is ", "
