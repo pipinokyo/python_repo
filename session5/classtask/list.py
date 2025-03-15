@@ -7,7 +7,8 @@ my_list = [1, 2, 3, 4, 5]
 print(my_list[0])  # Output: 1
 print(my_list[-1]) # Output: 5 (last element)
 
-3. Modify Elementsmy_list[0] = 10
+3. Modify Elements
+my_list[0] = 10
 print(my_list)  # Output: [10, 2, 3, 4, 5]
 
 4. Add Elements
