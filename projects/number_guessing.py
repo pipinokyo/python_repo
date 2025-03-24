@@ -14,6 +14,7 @@ if top_of_range.isdigit():
 else:
     print('Please type a number next time.')
     quit()
+print(f'The number will be between 1 and {top_of_range}')
 # randon.randit is to generate a random  number
 # (0, top_of_range) 0 is the start point top_of_range is finish
 # it will generate a number between 0 and top_of_range
