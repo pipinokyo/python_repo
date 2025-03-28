@@ -7,7 +7,7 @@ else:
 print(i)
 
 '''
-visulation and explanation:
+visulation and 
 1- Start:
     i = 250
     len(str(250)) = 3
