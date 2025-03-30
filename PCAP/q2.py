@@ -15,6 +15,8 @@ D. print(n, ” “)
 '''
 Understanding the Loop:
 
+
+
 Initialization: n = 0
 Loop Condition: while n < 4
 The loop will run as long as n is less than 4.
