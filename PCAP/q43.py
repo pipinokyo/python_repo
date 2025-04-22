@@ -3,4 +3,4 @@
 import math
 
 result = math.e != math.pow(2, 4)
-print(result)
+print(int(result))
