@@ -6,7 +6,6 @@ print(x, y, z, sep='*')
 
 # Understanding the Code
 # Chained Assignment:
-
 # z = y = x = 1 is a chained assignment in Python.
 
 # It assigns the value 1 to x, then assigns x (which is now 1) to y, and finally assigns y (which is 1) to z.
