@@ -1,6 +1,6 @@
 # What is the expected output of the following code?
 
-x = """"
+x = """
 """
 
 print(len(x))
