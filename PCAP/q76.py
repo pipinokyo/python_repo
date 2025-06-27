@@ -43,6 +43,3 @@ for x in new_vect:
 # - "bravo"[1] = 'r'
 
 # Output: 'l' + 'r' = "lr"
-
-
-# Expected output of the code is:
