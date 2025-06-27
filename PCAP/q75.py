@@ -41,3 +41,6 @@ print(result)
 #        = 8 / 2 + 4
 #        = 4.0 + 4
 #        = 8.0
+
+# The expected output of the code is:
+8.0
